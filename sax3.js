@@ -27,7 +27,7 @@ var sender = function () {
         })
     };
     $.ajax(settings).done(function (response) {
-        window.location = 'index2.html';
+        window.location = 'index4.html';
         console.log(response);
     });
     return false;
